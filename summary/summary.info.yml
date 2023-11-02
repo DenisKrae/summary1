@@ -1,0 +1,9 @@
+name: 'Summary API'
+type: module
+description: 'Combines various APIs including system information, modules and themes, and status report warnings.'
+core_version_requirement: ^10
+package: Custom
+dependencies:
+  - drupal:system
+version: '1.0'
+project: 'summary'

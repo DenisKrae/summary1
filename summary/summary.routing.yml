@@ -1,0 +1,26 @@
+warnings.status_report:
+  path: '/api/warnings'
+  defaults:
+    _controller: '\Drupal\summary\Controller\WarningsController::getStatusReportWarnings'
+    _title: 'Status Report Warnings'
+  requirements:
+    _permission: 'access site reports'
+
+custom_api.modules_themes:
+  path: '/api/modules-themes'
+  defaults:
+    _controller: '\Drupal\summary\Controller\ModulesThemesController::getModulesThemes'
+    methods:  [GET]
+  requirements:
+    _permission: 'access content'
+
+system_information.api:
+  path: '/api/system-information'
+  defaults:
+    _controller: '\Drupal\summary\Controller\SystemInformationController::getInfo'
+    _title: 'System Information'
+  requirements:
+    _permission: 'access content'
+
+
+

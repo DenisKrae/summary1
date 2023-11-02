@@ -1,0 +1,22 @@
+summary.status_report:
+  title: 'Status Report Warnings'
+  description: 'Provides a custom API endpoint for status report warnings.'
+  parent: system.admin_config_development
+  route_name: warnings.status_report
+  weight: 101
+
+summary.modules_themes:
+  title: 'Modules and Themes'
+  description: 'Provides a custom API endpoint for listing modules and themes.'
+  parent: system.admin_config_development
+  route_name: custom_api.modules_themes
+  weight: 102
+
+summary.system_information:
+  title: 'System Information'
+  description: 'Provides a custom API endpoint for system information.'
+  parent: system.admin_config_development
+  route_name: system_information.api
+  weight: 103
+
+
